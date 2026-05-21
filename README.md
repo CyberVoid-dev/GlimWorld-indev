@@ -14,3 +14,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## Code of Conduct
 
 See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+## Disclaimer
+
+gimworld is an independent, community-run project created to support Gimkit Creative builders. We are not affiliated with, endorsed by, or sponsored by Gimkit, Inc.
+
+Gimkit and Gimkit Creative are trademarks of Gimkit, Inc.
+
+## License
+
