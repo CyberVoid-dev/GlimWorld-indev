@@ -1,4 +1,18 @@
+# Robots.txt for GimWorld
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /.git/
 
 Sitemap: https://leonel12.github.io/gimworld/sitemap.xml
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay (optional, in seconds)
+Crawl-delay: 1
