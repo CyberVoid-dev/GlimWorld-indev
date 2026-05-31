@@ -3,6 +3,9 @@ name: Rebrand gimworld to GlimWorld
 on:
   workflow_dispatch:  # Manual trigger only - run from Actions tab
 
+permissions:
+  contents: write
+
 jobs:
   rebrand:
     runs-on: ubuntu-latest
