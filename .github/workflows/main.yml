@@ -21,4 +21,4 @@ jobs:
     - name: Check for broken links
       run: |
         npm install -g broken-link-checker
-        blc -r https://leonel12-debug.github.io/gimworld/ || true
+        blc -r https://leonel12-debug.github.io/GlimWorld/ || true
