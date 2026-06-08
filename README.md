@@ -6,6 +6,16 @@
 
 ---
 
+## 📰 Latest News
+
+**[→ View All News & Updates](NEWS.md)**
+
+🎉 **June 8, 2026** — Major SEO & Partnership Launch! GlimWorld now discoverable across all search engines with professional partnership program.
+
+🏆 **June 9, 2026** — GimTourney 2026 Begins! Thousands of builders competing for glory and recognition.
+
+---
+
 ## What is GlimWorld?
 
 GlimWorld is an independent, community-run platform dedicated to supporting Gimkit Creative builders of all levels. Whether you're creating educational games, interactive maps, or engaging quizzes, GlimWorld is your hub to:
@@ -33,20 +43,11 @@ GlimWorld is an independent, community-run platform dedicated to supporting Gimk
 ## 📱 Community Links
 
 - 🌐 **[GlimWorld Website](https://leonel12-debug.github.io/GlimWorld/)** — Main hub for announcements and resources
+- 📰 **[News & Updates](NEWS.md)** — Latest announcements and events
 - 💬 **[Padlet Community](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)** — Central hub for discussions and sharing
 - 📧 **[Contact Form](https://forms.office.com/r/kFyH7TXtQJ)** — Send us feedback or questions
 - 🐙 **[GitHub Repository](https://github.com/leoNEL12-debug/GlimWorld)** — Contribute to our open-source project
 - 🤝 **[Partnership Opportunities](PARTNERSHIPS.md)** — Grow together with GlimWorld!
-
----
-
-## 📰 Latest News & Updates
-
-### **June 9th, 2026** — GimTourney Day! 🏆
-Join thousands of Gimkit Creative builders competing in GimTourney! [Sign up now on Padlet](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)
-
-### **May 20, 2026** — Website Launch 🚀
-Our new public hub is live! Visit [leonel12-debug.github.io/GlimWorld/](https://leonel12-debug.github.io/GlimWorld/) for news, resources, and community info.
 
 ---
 
@@ -83,6 +84,7 @@ We're actively seeking partnerships with:
 - **Security Policy:** See [SECURITY.md](SECURITY.md)
 - **Code of Conduct:** See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - **Changelog:** See [CHANGELOG.md](CHANGELOG.md)
+- **News & Events:** See [NEWS.md](NEWS.md)
 
 ---
 
@@ -108,6 +110,7 @@ GlimWorld is an **independent, community-run project** created by Gimkit Creativ
 
 Have ideas? Want to help? Found a bug? Interested in partnerships?
 
+- 📰 **[Check NEWS.md](NEWS.md)** for latest updates and events
 - 📝 **Use our [Contact Form](https://forms.office.com/r/kFyH7TXtQJ)** for direct inquiries
 - 💬 **Post on [Padlet](https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb)** to engage with the community
 - 🐙 **Open an issue on [GitHub](https://github.com/leoNEL12-debug/GlimWorld)** for technical feedback
