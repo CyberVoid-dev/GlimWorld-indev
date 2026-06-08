@@ -4,7 +4,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /.git/
 
-Sitemap: https://leonel12.github.io/GlimWorld/sitemap.xml
+Sitemap: https://leonel12-debug.github.io/GlimWorld/sitemap.xml
 
 # Google specific
 User-agent: Googlebot
@@ -12,6 +12,18 @@ Allow: /
 
 # Bing specific
 User-agent: Bingbot
+Allow: /
+
+# DuckDuckGo specific
+User-agent: DuckDuckBot
+Allow: /
+
+# Baidu specific
+User-agent: Baiduspider
+Allow: /
+
+# Yandex specific
+User-agent: YandexBot
 Allow: /
 
 # Crawl delay (in seconds)
