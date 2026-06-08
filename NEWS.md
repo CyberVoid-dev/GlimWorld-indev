@@ -20,6 +20,29 @@ Your central hub for all the latest news, announcements, and updates from GlimWo
 
 ## 📢 Latest News
 
+### 🎮 **June 8, 2026** — GlimGames is Officially Live!
+**Your Hub for 3D Games & Creative Experiences**
+
+We're thrilled to announce the official launch of **GlimGames** — a dedicated showcase for all the amazing 3D games created at GlimWorld!
+
+**What is GlimGames?**
+- 🎮 Clean, user-friendly hub featuring all GlimWorld 3D games
+- 🗺️ Simple navigation with full game information
+- 🔗 Direct links to play each game
+- 📝 Browse our library and explore what each game is about
+
+**Why This Matters:**
+This is where GlimWorld creations come to life — not just talked about, but experienced! GlimGames brings together all our builder community's work in one dedicated showcase.
+
+**Submit Your Game:**
+Interested in featuring your game on GlimGames? We welcome creator submissions! Use our [Contact Form](https://canva.link/contact) with any questions or submissions.
+
+**Explore GlimGames:** [https://canva.link/glimgames](https://canva.link/glimgames)
+
+**Why It Matters:** GlimGames strengthens the GlimWorld ecosystem by giving your creations a dedicated platform where the community can discover, explore, and play your work.
+
+---
+
 ### 🎉 **June 8, 2026** — Major SEO & Partnership Launch!
 **GlimWorld Goes Global with Search Engine Optimization and Professional Partnership Program**
 
@@ -33,7 +56,7 @@ We've just launched significant improvements to make GlimWorld more discoverable
 - ✅ Professional documentation for contributors and partners
 
 **What This Means:**
-GlimWorld is now much easier to find on Google, Bing, DuckDuckGo, and other search engines! We're also opening doors for educational institutions, content creators, and technology partners to grow with us.
+GlimWorld is now much easier to find on Google, Bing, DuckDuckGo, and other search engines! We're also opening doors for educational institutions, content creators, and technology partners to grow[...]
 
 **Learn More:**
 - 🤝 [Partnership Opportunities](PARTNERSHIPS.md)
@@ -110,6 +133,13 @@ Our first-ever partnership summit bringing together educators, content creators,
 
 ## 🏆 Announcements
 
+### 🎮 **New: GlimGames Launch**
+GlimGames is your dedicated hub for discovering and playing all 3D games created by the GlimWorld community. Submit your own game using our [Contact Form](https://canva.link/contact).
+
+**Explore:** [https://canva.link/glimgames](https://canva.link/glimgames)
+
+---
+
 ### ✨ **New: Partnership Program Launched**
 We're excited to announce our professional partnership program! Whether you're an educational institution, content creator, or technology company, there's an opportunity for you.
 
@@ -141,6 +171,7 @@ Official launch of GlimWorld with complete feature set:
 - ✅ Professional documentation
 - ✅ SEO optimization
 - ✅ Partnership program
+- ✅ GlimGames showcase platform
 
 **Celebrating:** 
 - 1 star on GitHub ⭐
