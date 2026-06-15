@@ -12,7 +12,7 @@
 
 🎉 **June 8, 2026** — Major SEO & Partnership Launch! GlimWorld now discoverable across all search engines with professional partnership program.
 
-🏆 **June 9, 2026** — GimTourney 2026 Begins! Thousands of builders competing for glory and recognition.
+🏆 **June 15, 2026** — Edu Space (GlimWorld Education) is now in GlimWorld! Start learning: https://padlet.com/GlimWorldForever/GlimWorld
 
 ---
 
