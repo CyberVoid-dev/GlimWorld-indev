@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GlimWorld is a builder-focused community for Gimkit Creative creators. Share your work, learn new techniques, troubleshoot challenges, and collaborate with other [...]
-    <meta name="keywords" content="Gimkit, Gimkit Creative, community, builders, game design, educational games, learning community, Gimkit games, tutorial, guides">
+    <meta name="description" content="GlimWorld is a builder-focused community for Gimkit Creative creators. Share your work, learn new techniques, troubleshoot challenges, and collaborate with other builders. Play GlimWorld Games!">
+    <meta name="keywords" content="Gimkit, Gimkit Creative, community, builders, game design, educational games, learning community, Gimkit games, tutorial, guides, GlimWorld games">
     <meta name="author" content="GlimWorld community">
-    <meta name="theme-color" content="">
+    <meta name="theme-color" content="#6366f1">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta property="og:title" content="GlimWorld™ – Community for Gimkit Creative Builders">
     <meta property="og:description" content="A builder-focused community for Gimkit Creative creators. Share your work, learn new techniques, troubleshoot, and collaborate with other builders.">
@@ -37,363 +37,42 @@
     }
     </script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.8;
-            color: #333;
-            background: linear-gradient(135deg, 
- 0%, 
- 100%);
-            background-attachment: fixed;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        .skip-link {
-            position: absolute;
-            top: -40px;
-            left: 0;
-            background: 
-;
-            color: #fff;
-            padding: 8px;
-            text-decoration: none;
-            z-index: 100;
-        }
-
-        .skip-link:focus {
-            top: 0;
-        }
-
-        header {
-            text-align: center;
-            padding: 80px 0 60px;
-            color: #fff;
-        }
-
-        h1 {
-            font-size: 4em;
-            margin-bottom: 15px;
-            font-weight: 800;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            letter-spacing: -1px;
-            color: #fff;
-        }
-
-        .tagline {
-            font-size: 1.4em;
-            color: rgba(255,255,255,0.98);
-            margin-bottom: 40px;
-            font-weight: 300;
-            line-height: 1.6;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 18px 50px;
-            background: #fff;
-            color: 
-;
-            text-decoration: none;
-            border: 2px solid #fff;
-            border-radius: 50px;
-            font-weight: 700;
-            font-size: 1.2em;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-
-        .cta-button:hover,
-        .cta-button:focus {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-            background: 
-;
-            outline: 2px solid #fff;
-            outline-offset: 2px;
-        }
-
-        .cta-button:focus {
-            outline: 3px solid 
-;
-        }
-
-        .content-card {
-            background: #fff;
-            border-radius: 15px;
-            padding: 40px;
-            margin: 30px 0;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-            border: 2px solid 
-;
-        }
-
-        section {
-            margin: 30px 0;
-        }
-
-        h2 {
-            font-size: 2.2em;
-            margin-bottom: 20px;
-            color: 
-;
-            font-weight: 700;
-            border-bottom: 3px solid 
-;
-            padding-bottom: 10px;
-        }
-
-        p {
-            margin-bottom: 15px;
-            font-size: 1.15em;
-            color: #333;
-            line-height: 1.8;
-        }
-
-        .steps {
-            background: linear-gradient(135deg, 
- 0%, 
- 100%);
-            padding: 30px;
-            border-radius: 10px;
-            margin: 25px 0;
-            border: 2px solid 
-;
-            border-left: 5px solid 
-;
-        }
-
-        .steps ol {
-            margin-left: 25px;
-        }
-
-        .steps li {
-            margin: 15px 0;
-            font-size: 1.15em;
-            color: #333;
-            line-height: 1.8;
-        }
-
-        .steps a {
-            color: 
-;
-            font-weight: 700;
-            text-decoration: underline;
-            border-bottom: 2px solid 
-;
-            padding-bottom: 2px;
-        }
-
-        .steps a:hover,
-        .steps a:focus {
-            background-color: 
-;
-            outline: 2px solid 
-;
-            outline-offset: 2px;
-        }
-
-        .guidelines {
-            background: 
-;
-            padding: 25px;
-            border-radius: 10px;
-            margin: 20px 0;
-            border: 2px solid 
-;
-        }
-
-        .guidelines ul {
-            margin-left: 25px;
-        }
-
-        .guidelines li {
-            margin: 12px 0;
-            font-size: 1.15em;
-            color: #333;
-            line-height: 1.8;
-        }
-
-        .highlight-box {
-            background: linear-gradient(135deg, 
- 0%, 
- 100%);
-            color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            text-align: center;
-            margin: 30px 0;
-            border: 2px solid #fff;
-        }
-
-        .highlight-box h2 {
-            color: #fff;
-            border-bottom: 3px solid #fff;
-        }
-
-        .highlight-box a {
-            color: #fff;
-            font-weight: 700;
-            font-size: 1.3em;
-            text-decoration: underline;
-            border-bottom: 2px solid #fff;
-            padding-bottom: 2px;
-        }
-
-        .highlight-box a:hover,
-        .highlight-box a:focus {
-            background-color: rgba(255,255,255,0.2);
-            outline: 2px solid #fff;
-            outline-offset: 2px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            color: rgba(255,255,255,0.95);
-            margin-top: 60px;
-            background: rgba(0,0,0,0.2);
-            border-top: 2px solid rgba(255,255,255,0.3);
-        }
-
-        footer a {
-            color: #fff;
-            text-decoration: underline;
-            font-weight: 600;
-            margin: 0 15px;
-        }
-
-        footer a:hover,
-        footer a:focus {
-            outline: 2px solid #fff;
-            outline-offset: 2px;
-        }
-
-        .emoji {
-            font-size: 1.5em;
-            margin-right: 10px;
-        }
-
-        a:focus,
-        button:focus {
-            outline: 3px solid 
-;
-            outline-offset: 2px;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            body {
-                background: linear-gradient(135deg, 
- 0%, 
- 100%);
-            }
-            
-            .content-card {
-                background: 
-;
-                color: 
-;
-                border-color: 
-;
-            }
-
-            h2 {
-                color: 
-;
-                border-bottom-color: 
-;
-            }
-
-            p {
-                color: 
-;
-            }
-
-            .steps {
-                background: 
-;
-                border-color: 
-;
-            }
-
-            .steps li {
-                color: 
-;
-            }
-
-            .guidelines {
-                background: 
-;
-                border-color: 
-;
-                color: 
-;
-            }
-
-            .guidelines li {
-                color: 
-;
-            }
-        }
-
-        @media (prefers-reduced-motion: reduce) {
-            * {
-                animation-duration: 0.01ms !important;
-                animation-iteration-count: 1 !important;
-                transition-duration: 0.01ms !important;
-            }
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5em;
-            }
-
-            h2 {
-                font-size: 1.8em;
-            }
-
-            .content-card {
-                padding: 25px;
-            }
-
-            .cta-button {
-                font-size: 1em;
-                padding: 15px 40px;
-            }
-
-            p {
-                font-size: 1.05em;
-            }
-        }
-
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 2em;
-            }
-
-            .tagline {
-                font-size: 1.1em;
-            }
-
-            header {
-                padding: 40px 0 30px;
-            }
-        }
+        *{margin:0;padding:0;box-sizing:border-box}
+        html{scroll-behavior:smooth}
+        body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.8;color:#333;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);background-attachment:fixed}
+        .container{max-width:900px;margin:0 auto;padding:40px 20px}
+        .skip-link{position:absolute;top:-40px;left:0;background:#667eea;color:#fff;padding:8px;text-decoration:none;z-index:100}
+        .skip-link:focus{top:0}
+        header{text-align:center;padding:80px 0 60px;color:#fff}
+        h1{font-size:4em;margin-bottom:15px;font-weight:800;text-shadow:2px 2px 4px rgba(0,0,0,.3);letter-spacing:-1px;color:#fff}
+        .tagline{font-size:1.4em;color:rgba(255,255,255,.98);margin-bottom:40px;font-weight:300;line-height:1.6}
+        .cta-button{display:inline-block;padding:18px 50px;background:#fff;color:#667eea;text-decoration:none;border:2px solid #fff;border-radius:50px;font-weight:700;font-size:1.2em;transition:all .3s ease;box-shadow:0 4px 15px rgba(0,0,0,.2);margin:10px}
+        .cta-button:hover,.cta-button:focus{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.3);background:#667eea;color:#fff;outline:2px solid #fff;outline-offset:2px}
+        .cta-button.game-btn{background:#c084fc;color:#000;border-color:#c084fc}
+        .cta-button.game-btn:hover{background:#a855f7;border-color:#a855f7}
+        .content-card{background:#fff;border-radius:15px;padding:40px;margin:30px 0;box-shadow:0 10px 30px rgba(0,0,0,.15);border:2px solid #667eea}
+        section{margin:30px 0}
+        h2{font-size:2.2em;margin-bottom:20px;color:#667eea;font-weight:700;border-bottom:3px solid #667eea;padding-bottom:10px}
+        p{margin-bottom:15px;font-size:1.15em;color:#333;line-height:1.8}
+        .steps{background:linear-gradient(135deg,#f3f4f6 0%,#e5e7eb 100%);padding:30px;border-radius:10px;margin:25px 0;border:2px solid #667eea;border-left:5px solid #667eea}
+        .steps ol{margin-left:25px}
+        .steps li{margin:15px 0;font-size:1.15em;color:#333;line-height:1.8}
+        .steps a{color:#667eea;font-weight:700;text-decoration:underline;border-bottom:2px solid #667eea;padding-bottom:2px}
+        .steps a:hover,.steps a:focus{background-color:#e0e7ff;outline:2px solid #667eea;outline-offset:2px}
+        .guidelines{background:#f9fafb;padding:25px;border-radius:10px;margin:20px 0;border:2px solid #667eea}
+        .guidelines ul{margin-left:25px}
+        .guidelines li{margin:12px 0;font-size:1.15em;color:#333;line-height:1.8}
+        .highlight-box{background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;padding:30px;border-radius:10px;text-align:center;margin:30px 0;border:2px solid #fff}
+        .highlight-box h2{color:#fff;border-bottom:3px solid #fff}
+        .highlight-box a{color:#fff;font-weight:700;font-size:1.3em;text-decoration:underline;border-bottom:2px solid #fff;padding-bottom:2px}
+        .highlight-box a:hover,.highlight-box a:focus{background-color:rgba(255,255,255,.2);outline:2px solid #fff;outline-offset:2px}
+        footer{text-align:center;padding:40px 20px;color:rgba(255,255,255,.95);margin-top:60px;background:rgba(0,0,0,.2);border-top:2px solid rgba(255,255,255,.3)}
+        footer a{color:#fff;text-decoration:underline;font-weight:600;margin:0 15px}
+        footer a:hover,footer a:focus{outline:2px solid #fff;outline-offset:2px}
+        .emoji{font-size:1.5em;margin-right:10px}
+        a:focus,button:focus{outline:3px solid #667eea;outline-offset:2px}
+        @media(max-width:768px){h1{font-size:2.5em}h2{font-size:1.8em}.content-card{padding:25px}.cta-button{font-size:1em;padding:15px 40px}p{font-size:1.05em}}
+        @media(max-width:480px){h1{font-size:2em}.tagline{font-size:1.1em}header{padding:40px 0 30px}}
     </style>
 </head>
 <body>
@@ -401,10 +80,11 @@
 
     <div class="container">
         <header>
-            <img src="gim.JPG" alt="GlimWorld logo - community for Gimkit Creative builders" style="max-width: 250px; margin-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">
+            <img src="gim.JPG" alt="GlimWorld logo - community for Gimkit Creative builders" style="max-width:250px;margin-bottom:20px;display:block;margin-left:auto;margin-right:auto">
             <h1>GlimWorld&trade;</h1>
             <p class="tagline">Build, share, collaborate — and keep it real.</p>
             <a href="https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb" class="cta-button" target="_blank" rel="noopener noreferrer">Join the Community</a>
+            <a href="game.html" class="cta-button game-btn">🎮 Play GlimWorld Games</a>
         </header>
 
         <main id="main-content">
@@ -413,11 +93,12 @@
                     <h2>What is GlimWorld?</h2>
                     <p>GlimWorld is a builder-focused community for Gimkit Creative creators.</p>
                     <p>It's where people come together to:</p>
-                    <ul style="margin-left: 25px; margin-bottom: 15px;">
+                    <ul style="margin-left:25px;margin-bottom:15px">
                         <li>Share their creations — maps, games, builds</li>
                         <li>Learn techniques — tips, tricks, how-tos</li>
                         <li>Troubleshoot — get help when stuck</li>
                         <li>Collaborate — work together on projects</li>
+                        <li><strong>Play GlimWorld Games</strong> — enjoy our custom game collection</li>
                     </ul>
                     <p>Our mission: <strong>"Build, share, collaborate — and keep it real."</strong></p>
                 </section>
@@ -432,6 +113,7 @@
                             <li>Visit the <a href="https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer">GlimWorld Padlet</a></li>
                             <li>Review the Community Rules & FAQ to understand our guidelines</li>
                             <li>Start sharing your creations and connecting with other builders</li>
+                            <li><strong>Play GlimWorld Games</strong> — try our custom game collection!</li>
                         </ol>
                     </div>
                     <a href="https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb" class="cta-button" target="_blank" rel="noopener noreferrer">Go to GlimWorld</a>
@@ -452,23 +134,30 @@
                             <li><span class="emoji" aria-hidden="true">📚</span>Keep discussions constructive and on-topic</li>
                         </ul>
                     </div>
-                    <p style="margin-top: 20px;">Read the full <strong>Community Rules & FAQ</strong> on the GlimWorld Padlet for detailed guidelines.</p>
+                    <p style="margin-top:20px">Read the full <strong>Community Rules & FAQ</strong> on the GlimWorld Padlet for detailed guidelines.</p>
                 </section>
             </div>
 
             <div class="highlight-box">
-                <h2 style="color: #fff; margin-bottom: 15px;">Need Help?</h2>
-                <p style="color: #fff; font-size: 1.2em;">Use our <a href="https://forms.office.com/r/kFyH7TXtQJ" target="_blank" rel="noopener noreferrer">contact form</a> for support or questions.</p>
+                <h2 style="color:#fff;margin-bottom:15px">🎮 Play GlimWorld Games!</h2>
+                <p style="color:#fff;font-size:1.2em;margin-bottom:20px">Experience our custom game collection featuring Obby Tower, Parkour City, Pizza Rush, Speed Racing, Coin Collector, and Tower Defense!</p>
+                <a href="game.html" class="cta-button game-btn" style="background:#fff;color:#c084fc;border-color:#fff">Play Now</a>
+            </div>
+
+            <div class="highlight-box">
+                <h2 style="color:#fff;margin-bottom:15px">Need Help?</h2>
+                <p style="color:#fff;font-size:1.2em">Use our <a href="https://forms.office.com/r/kFyH7TXtQJ" target="_blank" rel="noopener noreferrer">contact form</a> for support or questions.</p>
             </div>
         </main>
 
         <footer>
             <p>&copy; 2026 GlimWorld&trade; – Independent community for Gimkit Creative builders</p>
-            <p style="margin-top: 10px; opacity: 1; font-size: 0.95em;">Not affiliated with Gimkit, Inc. | <a href="LICENSE">MIT License</a></p>
-            <p style="margin-top: 20px;">
+            <p style="margin-top:10px;opacity:1;font-size:.95em">Not affiliated with Gimkit, Inc. | <a href="LICENSE">MIT License</a></p>
+            <p style="margin-top:20px">
                 <a href="https://padlet.com/ForeverGimWorld/GlimWorld-romw9j63mcbzwbjb" target="_blank" rel="noopener noreferrer">Padlet</a> | 
                 <a href="https://forms.office.com/r/kFyH7TXtQJ" target="_blank" rel="noopener noreferrer">Contact</a> | 
-                <a href="https://github.com/leoNEL12-debug/GlimWorld" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://github.com/leoNEL12-debug/GlimWorld" target="_blank" rel="noopener noreferrer">GitHub</a> |
+                <a href="game.html">Play Games</a>
             </p>
         </footer>
     </div>
